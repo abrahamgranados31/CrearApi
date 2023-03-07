@@ -1,3 +1,6 @@
+const animes = document.getElementById('animes')
+const anime = document.getElementById('anime').content
+const fragment = document.createDocumentFragment()
 let news = []
 
 document.addEventListener('DOMContentLoaded', () => {
